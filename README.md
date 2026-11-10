@@ -46,10 +46,11 @@ Decisiones de limpieza (explicadas en el cuaderno): se usan solo los años 2000-
 
 ## Resultados principales
 
-- El pop aparece en el 81,65 % de las canciones (1633 de 2000); le siguen hip hop, R&B, Dance/Electronic y rock.
-- La popularidad media se mueve entre unos 54 y 64 puntos casi todos los años, salvo un pico en 2018 (70,9) que estos datos no permiten explicar.
-- La duración casi no influye en la popularidad (correlación de 0,051). La mayoría de canciones dura entre 3,4 y 4,1 minutos.
-- Hay un grupo de canciones con popularidad 0, probablemente sin dato (hipótesis no verificada), que se puede excluir en la app con una casilla.
+- El pop aparece en el 81,8 % de las canciones (1601 de 1958); le siguen hip hop, R&B, Dance/Electronic y rock.
+- La popularidad media se mueve entre unos 54 y 64 puntos casi todos los años, con un pico en 2018 (70,9) que se explica en buena parte por las canciones con popularidad 0, concentradas en 2012-2017 (explicación razonable, no verificada).
+- La duración casi no influye en la popularidad (correlación de 0,051, y de -0,003 sin las canciones con popularidad 0). La mayoría de canciones dura entre 3,4 y 4,1 minutos.
+- Hay 126 canciones con popularidad 0, probablemente sin dato (hipótesis no verificada), que se pueden excluir en la app con una casilla.
+- El porcentaje de canciones explícitas sube del 16,2 % en 2000 al 47,7 % en 2018.
 
 Las conclusiones completas y las limitaciones de cada gráfico están en el cuaderno.
 
