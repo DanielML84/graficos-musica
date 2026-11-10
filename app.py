@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import streamlit as st
+from matplotlib.ticker import MaxNLocator
 
 # ---------------------------------------------------------------------------
 # 1) Configuración de la página y constantes
@@ -111,6 +112,7 @@ def grafico_linea(d, lib):
     else:
         sns.lineplot(data=d, x="year", y="popularity", estimator="mean",
                      errorbar=("ci", 95), marker="o", color=AZUL, ax=ax)
+    ax.xaxis.set_major_locator(MaxNLocator(integer=True))   # años enteros (sin 2002.5)
     ax.set_xlabel("Año")
     ax.set_ylabel("Popularidad media (0-100)")
     ax.set_title("Popularidad media por año")
@@ -169,6 +171,7 @@ def grafico_apilado(d, lib):
                      palette={False: AZUL, True: NARANJA}, shrink=0.8, ax=ax)
         ax.set_ylabel("Proporción de canciones del año")
         ax.set_title("Canciones explícitas y no explícitas por año")
+    ax.xaxis.set_major_locator(MaxNLocator(integer=True))   # años enteros
     ax.set_xlabel("Año")
     fig.tight_layout()
     return fig
