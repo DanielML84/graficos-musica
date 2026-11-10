@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+# Descomenta la siguiente línea si NO quieres subir el CSV al repositorio:
+# data/songs_normalize.csv
